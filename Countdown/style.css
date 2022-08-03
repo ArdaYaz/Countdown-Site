@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background: url(image/noel-theme.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    font-size: 3.7rem;
+    margin-top: 3rem;
+    padding: 3rem;
+}
+.time-left{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.countdown{
+    display: flex;
+    margin-left: 10rem;
+    font-size: 2.2rem;
+    text-align: center;
+}
+.box{
+    margin-right: 30rem;
+}
+.counter{
+    margin-right: 3rem;
+    margin-top: 3rem;
+    padding: 1rem;
+}
